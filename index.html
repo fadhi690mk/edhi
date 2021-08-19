@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>shop</title>
+    </head>
+    <body>
+        <h1 style="font-size: 100"><i> add item</i></h1>
+        <form action="" method="post">
+
+            <p>
+                <label for="a">Name:</label>
+                <input type="text" id="a" name="name" required/>
+            </p>
+            <p>
+                <label for="b">Quantity:</label>
+                <input type="number" id="b" name="quantity" min="1" required/>
+            </p>
+            <p>
+                <label for="c">Category:</label>
+                <select id="c" name="category" >
+                    <option value="category-1">category 1</option>
+                    <option value="category-2">category 2</option>
+                </select>
+            </p>
+            <p>
+                <label for="d">Price:</label>
+                <input type="number" id="d" name="price" min="0" required/>
+            </p>
+            <p>
+                <input type="submit" value="add to list"/>
+            </p>
+        </form>
+        
+    </body>
+</html>
